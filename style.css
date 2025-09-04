@@ -17,6 +17,22 @@ body {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* subtle border */
   z-index: 1030; /* keep it above everything */
 }
+/* Apply to entire navbar */
+.navbar, 
+.navbar .nav-link, 
+.navbar .navbar-brand, 
+.navbar button {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* Logo special styling */
+.logo-symbol {
+  color: #f9004d;
+  font-size: 40px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+}
+
 
 
 
