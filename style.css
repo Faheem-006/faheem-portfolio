@@ -37,13 +37,36 @@ body {
   max-width: 350px; /* desktop size */
   height: auto;
 }
+.about p {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 400px;
+  margin: 0 auto; /* centers on small screens */
+}
+.highlight {
+  color: #f9004d;
+}
+
+.resume-btn {
+  padding: 15px 24px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
 
 @media (max-width: 768px) {
   .profile-img {
-    max-width: 180px; /* smaller only on mobile */
+    max-width: 250px; /* smaller only on mobile */
   }
+ 
 }
 
+
+@media (max-width: 350px) {
+  .about p {
+    font-size: 12px;
+  }
+}
 
 
 
